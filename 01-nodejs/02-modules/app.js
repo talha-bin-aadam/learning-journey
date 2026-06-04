@@ -36,3 +36,22 @@ console.log(divide(1,0))
 // to get file name and url etc
 console.log(import.meta)
 console.log(import.meta.url)
+
+
+// Common JS Modules
+// Synchronous
+// not hoisted
+// only one value can be exported
+// top level await is not allowed
+// file extention optional
+// can load any file even (.mp3, .mp4, .apk, .lasdhfl)
+// this keyword points to module.exports
+
+// ES6 Modules
+// Asynchronous
+// hoisted
+// multiple values can be exported
+// top level await is allowed
+// file extention mandatory
+// can load only .js and .mjs files
+// this keyword is undefined
