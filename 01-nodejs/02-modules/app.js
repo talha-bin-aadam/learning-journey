@@ -26,10 +26,13 @@
 // console.log(divide(1,0))
 
 // ES6
-
 import {sum, subtract, product, divide} from "./math.mjs"
 
 console.log(sum(1,2))
 console.log(subtract(1,2))
 console.log(product(1,2))
 console.log(divide(1,0))
+
+// to get file name and url etc
+console.log(import.meta)
+console.log(import.meta.url)
