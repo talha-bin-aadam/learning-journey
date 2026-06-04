@@ -1,0 +1,1 @@
+require function's return value is module.exports
